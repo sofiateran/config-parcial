@@ -18,6 +18,10 @@ spring:
           uri: lb://api-catalog
           predicates:
             - Path=/api/v1/catalog/**
+        - id: api-serie
+          uri: lb://api-serie
+          predicates:
+            - Path=/api/v1/series/**
 eureka:
    client:
       registerWithEureka: false
