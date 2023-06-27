@@ -19,7 +19,7 @@ spring:
   data:
     mongodb:
       database: test
-      port: 27017
+      port: 27018
       
 info:
   application:
